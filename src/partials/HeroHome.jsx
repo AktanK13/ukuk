@@ -35,15 +35,15 @@ function HeroHome() {
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-5xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Landing template for startups
+              Государственное учреждение «Укук» при Генеральной прокуратуре Кыргызской Республики
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-              Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+              Специализируется на разработке высоконагруженного сервис-ориентированного межплатформенного программного обеспечения. Нашей командой были разработаны и успешно внедрены различные автоматизированные интеллектуальные системы в правоохранительных органах, органах, ведающих вопросами обороны, чрезвычайных ситуаций, уголовно-исполнительной системы, пограничного контроля, национальной безопасности, а также прокуратуры.
             </p>
           </div>
-          
+
         </div>
       </div>
     </section>
