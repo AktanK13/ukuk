@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../images/Logo.png';
+import PageIllustration from '../partials/PageIllustration';
+
 function Footer() {
   return (
     <footer>
+
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
@@ -21,9 +24,12 @@ function Footer() {
               <div className="text-gray-400">720055, Бишкек . ул. Токтоналиева 2/1
                 Email: office@it.gov.kg</div>
             </div>
-      
+
           </div>
         </div>
+      </div>
+      <div className="relative rotate-180 max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
+        <PageIllustration />
       </div>
     </footer>
   );

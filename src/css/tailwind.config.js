@@ -6,6 +6,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        gold: {
+          100: '#524e3a'
+        },
         gray: {
           100: '#EBF1F5',
           200: '#D9E3EA',
@@ -28,6 +31,13 @@ module.exports = {
           800: '#38379C',
           900: '#262668',
         },
+      },
+      borderRadius: {
+        'none': '0',
+        'sm': '50%',
+        DEFAULT: '50%',
+        'lg': '.5rem',
+        'full': '9999px',
       },
       spacing: {
         '9/16': '56.25%',
@@ -69,6 +79,7 @@ module.exports = {
       },
     },
   },
+
   plugins: [
     require('@tailwindcss/forms'),
   ],
