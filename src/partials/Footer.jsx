@@ -14,15 +14,15 @@ function Footer() {
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
 
             {/* 1st block */}
-            <div className="md:col-span-4 lg:col-span-5">
+            <div className="md:col-span-5 lg:col-span-6">
               <div className="mb-2">
                 {/* Logo */}
                 <Link to="/" className="inline-block" aria-label="Cruip">
                   <img src={Logo} alt="logo" className='w-12' />
                 </Link>
               </div>
-              <div className="text-gray-400">720055, Бишкек . ул. Токтоналиева 2/1
-                Email: office@it.gov.kg</div>
+              <div className="text-gray-400">Кыргызская Республика, г. Бишкек, ул. Токтоналиева 2/1</div>
+              <div className="text-gray-400">office@it.gov.kg</div>
             </div>
 
           </div>

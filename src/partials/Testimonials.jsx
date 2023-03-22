@@ -41,21 +41,20 @@ function Testimonials() {
             <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <img className="rounded-full" src={Logomvd} width="48" height="48" alt="Testimonial 01" />
+                  <img className="rounded-full" src={logoAP} width="48" height="48" alt="Testimonial 01" />
                 </div>
               </div>
-              <span className="text-center text-gray-400 pb-4">Министерство внутренних дел Кыргызской Республики</span>
+              <span className="text-center text-gray-400 pb-4">Администрация президента Кыргызской Республики</span>
             </div>
             {/* 3st testimonial */}
             <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <img className="rounded-full" src={logoMU} width="48" height="48" alt="Testimonial 01" />
+                  <img className="rounded-full" src={logoGKNB} width="48" height="48" alt="Testimonial 01" />
                 </div>
               </div>
-              <span className="text-center text-gray-400 pb-4">Министерство юстиции Кыргызской Республики</span>
+              <span className="text-center text-gray-400 pb-4">Государственный комитет национальной безопасности Кыргызской Республики</span>
             </div>
-            
             {/* 4st testimonial */}
             <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
               <div>
@@ -69,30 +68,21 @@ function Testimonials() {
             <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <img className="rounded-full" src={logoAP} width="48" height="48" alt="Testimonial 01" />
+                  <img className="rounded-full" src={logoMU} width="48" height="48" alt="Testimonial 01" />
                 </div>
               </div>
-              <span className="text-center text-gray-400 pb-4">Администрация президента Кыргызской Республики</span>
+              <span className="text-center text-gray-400 pb-4">Министерство юстиции Кыргызской Республики</span>
             </div>
             {/* 6st testimonial */}
             <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <img className="" src={logoMO} width="48" height="48" alt="Testimonial 01" />
+                  <img className="rounded-full" src={Logomvd} width="48" height="48" alt="Testimonial 01" />
                 </div>
               </div>
-              <span className="text-center text-gray-400 pb-4">Министерство обороны Кыргызской Республики</span>
+              <span className="text-center text-gray-400 pb-4">Министерство внутренних дел Кыргызской Республики</span>
             </div>
             {/* 7st testimonial */}
-            <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
-              <div>
-                <div className="relative inline-flex flex-col mb-4">
-                  <img className="rounded-full" src={logoMCS} width="48" height="48" alt="Testimonial 01" />
-                </div>
-              </div>
-              <span className="text-center text-gray-400 pb-4">Министерство чрезвычайных ситуаций Кыргызской Республики</span>
-            </div>
-            {/* 8st testimonial */}
             <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
@@ -101,14 +91,23 @@ function Testimonials() {
               </div>
               <span className="text-center text-gray-400 pb-4">Государственная служба финансовой разведки Кыргызской Республики</span>
             </div>
+            {/* 8st testimonial */}
+            <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
+              <div>
+                <div className="relative inline-flex flex-col mb-4">
+                  <img className="rounded-full" src={logoMCS} width="48" height="48" alt="Testimonial 01" />
+                </div>
+              </div>
+              <span className="text-center text-gray-400 pb-4">Министерство чрезвычайных ситуаций Кыргызской Республики</span>
+            </div>
             {/* 9st testimonial */}
             <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
               <div>
                 <div className="relative inline-flex flex-col mb-4">
-                  <img className="rounded-full" src={logoGKNB} width="48" height="48" alt="Testimonial 01" />
+                  <img className="" src={logoMO} width="48" height="48" alt="Testimonial 01" />
                 </div>
               </div>
-              <span className="text-center text-gray-400 pb-4">Государственный комитет национальной безопасности Кыргызской Республики</span>
+              <span className="text-center text-gray-400 pb-4">Министерство обороны Кыргызской Республики</span>
             </div>
             {/* 10st testimonial */}
             <div className="flex items-center flex-col h-auto min-h-[235px] p-6 bg-gray-800" data-aos="fade-up">
