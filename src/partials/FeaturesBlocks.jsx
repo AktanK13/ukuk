@@ -5,7 +5,7 @@ import { MdCloudDone } from "react-icons/md";
 
 function FeaturesBlocks() {
   return (
-    <section>
+    <section id="aboutus">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
 
@@ -16,7 +16,7 @@ function FeaturesBlocks() {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
+          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none">
 
             {/* 1st item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
@@ -72,7 +72,7 @@ function FeaturesBlocks() {
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-[#524e3a]" width="64" height="64" rx="32" />
-                <g transform="translate(15 16)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
+                <g transform="translate(16 16)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
                   <BsClockFill className='text-[32px]' />
                 </g>
               </svg>
@@ -84,7 +84,7 @@ function FeaturesBlocks() {
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <circle className="fill-current text-[#524e3a]" cx="32" cy="32" r="32" />
-                <g transform="translate(14 16)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
+                <g transform="translate(16 16)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
                   <BsPersonFillGear className='text-[32px]' />
                 </g>
               </svg>

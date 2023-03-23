@@ -5,7 +5,7 @@ import PageIllustration from '../partials/PageIllustration';
 
 function Footer() {
   return (
-    <footer>
+    <footer id="contacts">
 
       <div className="py-12 md:py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
