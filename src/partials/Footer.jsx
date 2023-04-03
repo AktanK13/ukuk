@@ -23,7 +23,11 @@ function Footer() {
               </div>
               <div className="text-gray-400 mt-3">Кыргызская Республика, г. Бишкек, ул. Токтоналиева 2/1</div>
               <div className="text-gray-400 mt-3">office@it.gov.kg</div>
-              <div className="text-gray-400 mt-3 hover:text-blue-400 hover:underline"><a href="https://prokuror.kg/politics">Политика конфиденциальности мобильного приложения «Бизнести коргоо»</a> </div>
+              <div className="text-gray-400 mt-3 hover:text-blue-400 hover:underline">
+                <Link to="privacy-policy">
+                  Политика конфиденциальности мобильного приложения «Бизнести коргоо»
+                </Link>
+              </div>
             </div>
 
           </div>

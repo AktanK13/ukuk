@@ -36,7 +36,7 @@ function HeroHome() {
         <div className="relative pt-32 pb-10 md:pt-72 md:pb-32">
           {/* Section header */}
           <div className="max-w-5xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">
+            <h1 className="h1 mb-4 min-[320px]:px-0 text-3xl font-bold max-[600px]:px-0 text-3xl" data-aos="fade-up">
               Государственное учреждение «Укук» при Генеральной прокуратуре Кыргызской Республики
             </h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">

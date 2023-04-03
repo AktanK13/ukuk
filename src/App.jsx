@@ -11,6 +11,7 @@ import './css/style.css';
 import AOS from 'aos';
 
 import Home from './pages/Home';
+import PrivacyPolicy from "./partials/PrivacyPolicy";
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Home />} />
+        <Route exact path="/privacy-policy" element={<PrivacyPolicy/>} />
       </Routes>
     </>
   );
