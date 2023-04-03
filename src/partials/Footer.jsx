@@ -14,15 +14,16 @@ function Footer() {
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
 
             {/* 1st block */}
-            <div className="md:col-span-5 lg:col-span-6">
+            <div className="md:col-span-6 lg:col-span-7">
               <div className="mb-2">
                 {/* Logo */}
                 <Link to="/" className="inline-block" aria-label="Cruip">
                   <img src={Logo} alt="logo" className='w-12' />
                 </Link>
               </div>
-              <div className="text-gray-400">Кыргызская Республика, г. Бишкек, ул. Токтоналиева 2/1</div>
-              <div className="text-gray-400">office@it.gov.kg</div>
+              <div className="text-gray-400 mt-3">Кыргызская Республика, г. Бишкек, ул. Токтоналиева 2/1</div>
+              <div className="text-gray-400 mt-3">office@it.gov.kg</div>
+              <div className="text-gray-400 mt-3 hover:text-blue-400 hover:underline"><a href="https://prokuror.kg/politics">Политика конфиденциальности мобильного приложения «Бизнести коргоо»</a> </div>
             </div>
 
           </div>
