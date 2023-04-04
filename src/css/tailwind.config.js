@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'mobile': {'min': '320px', 'max': '600px'},
+      },
       colors: {
         gold: {
           100: '#524e3a'
